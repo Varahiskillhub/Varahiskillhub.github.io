@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Case Study — DMARC rollout</title>
+  <link rel="stylesheet" href="../assets/style.css"/>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand"><a href="../index.html">← Home</a></div>
+      <div class="navlinks"><a href="projects.html">Projects</a></div>
+    </div>
+
+    <div class="section">
+      <h2>DMARC rollout to reduce spoofing risk</h2>
+      <p class="small">High-level summary (sanitised). No sensitive DNS records or internal domain details are included.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Problem</h3>
+          <p>Email spoofing risk and inconsistent alignment across mail sources.</p>
+        </div>
+        <div class="card">
+          <h3>Approach</h3>
+          <ul>
+            <li>Inventory mail-sending sources and validate SPF/DKIM alignment.</li>
+            <li>Implement DMARC policy in phases (monitor → enforce) with reporting review.</li>
+            <li>Coordinate with cloud/mail stakeholders and document changes.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Outcome</h3>
+          <ul>
+            <li>Improved email authentication posture.</li>
+            <li>Reduced spoofing exposure and clearer governance over mail sources.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>What I’d do next</h3>
+          <ul>
+            <li>Automate reporting review and alert on alignment regressions.</li>
+            <li>Periodic vendor/source re-validation.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
